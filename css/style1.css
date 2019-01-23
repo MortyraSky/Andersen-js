@@ -1,0 +1,67 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background: url('../image/moon.jpg');
+  }
+  a{
+    text-decoration: none;
+  
+  }
+  
+  nav{
+    margin-left: 40px;
+    
+    width: 800px;
+    height: 100px;
+  }
+  
+  .topnav{
+    background-color: black;
+    font-size: 14px;
+    margin-top: 50px;
+  }
+  
+  .topnav a{
+    color: rgba(215, 221, 218, 0.753);    
+    padding: 14px 16px;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .container-body{
+    margin-left: 60px;
+    width: 35%;
+  }
+
+  .container-text h1{
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: left;
+    
+    margin-left: 30px;
+  }
+
+  .container-text p{
+    color: whitesmoke;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 30px;
+
+  }
+
+  footer{
+    width: 100%;
+    height: auto;
+    
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 200px;
+  
+  
+  }
+  
+  footer p{
+    color: rgba(215, 221, 218, 0.753);
+    font-size: 15px;
+    margin-left: 40px;
+  
+  }
