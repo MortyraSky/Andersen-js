@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+
+}
+h1{
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 5px;
+}
+h2{
+  color: steelblue;
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo{
+  background: white;
+  width: 100%;
+
+}
+
+.grafficlogo{
+  padding: 5px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+nav{
+  margin-left: 75%;
+  width: 800px;
+  height: 100px;
+
+}
+
+.topnav{
+  background-color: white;
+  font-size: 14px;
+  margin-top: -120px;
+  margin-right: 50px;
+}
+
+.topnav a{
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 15px;
+}
+
+.topnav a:hover{
+  border-bottom: 2px solid steelblue;
+}
+.container{
+  position: relative;
+  width: 100%;
+}
+.container .mw-100{
+  margin-top: -10px;
+  max-width: 100%;
+}
+
+.container .btn {
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.container_message h1{
+  position: absolute;
+  top: 20%;
+  left: 66%;
+}
+.container_message p{
+  position: absolute;
+  top: 30%;
+  left: 66%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+}
+br{
+  height: 5px;
+}
+
+
+.container .btn:hover {
+  background-color: black;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+
+
+}
+footer hr{
+
+  color: grey;
+  height: 2px;
+  margin-bottom: 20px;
+
+}
+
+footer p{
+
+  color: black;
+
+}
+
+.advantages__container{
+  display: flex;
+  justify-content: center;
+}
+
+.advantages{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+
+}
+
+.advantages__item{
+  width: 30%;
+}
+
+.advantages__item p{
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+}
+
+.advantages__Item{
+  margin-top: 50px;
+  width: 45%;
+
+
+}
+
+.advantages__Item h2{
+    padding-top: 50px;
+    color: grey;
+    text-align: left;
+}
+
+.advantages__Item p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: left;
+}
