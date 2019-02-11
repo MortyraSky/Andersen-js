@@ -8,9 +8,11 @@ window.onload = function(){ // отрисовка блоков
         console.log(event);
         if(event.target.className == 'block'){
             if(hod % 2 == 0){
+                alert("Ходят крестики");
                 event.target.innerHTML = "x";
             }
             else{
+                alert("Ходят нолики");
                 event.target.innerHTML = "0";
             }
 
@@ -20,10 +22,7 @@ window.onload = function(){ // отрисовка блоков
             }
             else{
                 hod++;
-            }
-                
-
-            
+            }          
 
         }
         
@@ -43,10 +42,7 @@ window.onload = function(){ // отрисовка блоков
     
 
     function check_Winner(){
-        var str1 = "123";
-        var str2 = "456";
-        var temppp = str1.indexOf(str2);
-        console.log(temppp);
+        
         var allblock = document.getElementsByClassName('block'); //
        // получаем ходы игроков 
        var steps_user_one = "";
@@ -71,6 +67,14 @@ window.onload = function(){ // отрисовка блоков
                 alert("Победа ноликов");
                 break;
             }
+            else{
+                if(hod == 9){
+                    alert("Ничья");
+                    break;
+                }
+            }
+
+            
         }
      
          
