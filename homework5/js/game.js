@@ -1,3 +1,5 @@
+alert("Задание 5.1")
+
 window.onload = function(){ // отрисовка блоков
     for(var i=0; i < 9; i++){
         document.getElementById("game").innerHTML+='<div class="block"></div>';
@@ -56,6 +58,11 @@ window.onload = function(){ // отрисовка блоков
             }
 
         }
+        check_result(steps_user_one, steps_user_two);        
+
+    }
+
+    function check_result(steps_user_one, steps_user_two){
         
         for(var i = 0; i < win_state.length; i++){
             if(steps_user_one.indexOf(win_state[i]) != -1){
@@ -72,13 +79,9 @@ window.onload = function(){ // отрисовка блоков
                     alert("Ничья");
                     break;
                 }
-            }
-
-            
+            }            
         }
-     
-         
-
+        
     }
 
     
